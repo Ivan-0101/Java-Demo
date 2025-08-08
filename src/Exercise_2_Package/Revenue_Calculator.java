@@ -28,5 +28,6 @@ public class Revenue_Calculator {
         System.out.println("The revenue from sale is: " + revenue + "$");
         System.out.println("Discount: " + discountInDollars + "$(" + discountInPercentages + "%)");
 
+        scanner.close();
     }
 }
